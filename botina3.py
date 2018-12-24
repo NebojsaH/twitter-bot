@@ -55,12 +55,12 @@ def reply_to_tweets():
 
 
 def reply_to_tweets2():
-    print('retrieving and replying to tweets...', flush=True)
+    print('odgovaram na jebene tvitove.......', flush=True)
     # DEV NOTE: use 1060651988453654528 for testing.
     last_seen_id = retrieve_last_seen_id(FILE_NAME)
     twts = api.search(q="#RockovaBotinaSavet", since_id=last_seen_id)
     rand_message = ['ubij se', 'obrisi tvit', 'obrisi nalog',
-                    'udji u zadrugu', 'glasaj za vucica' ]
+                    'ne smaraj', 'nema ti spasa' ]
 
 
     # NOTE: We need to use tweet_mode='extended' below to show
