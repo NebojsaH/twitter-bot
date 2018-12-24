@@ -34,7 +34,7 @@ def RandomTekst():
     #api.update_status(status=tweettext[randomChoice])
 
 def reply_to_tweets():
-    print('retrieving and replying to tweets...', flush=True)
+    print('odgovaram na jebene tvitove...', flush=True)
     # DEV NOTE: use 1060651988453654528 for testing.
     last_seen_id = retrieve_last_seen_id(FILE_NAME)
     rdmtkt = RandomTekst()
